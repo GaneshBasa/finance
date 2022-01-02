@@ -1,0 +1,23 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL .txt files
+*/*.txt
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# ignore ALL files in ANY directory named blanks
+blanks/
+
+# ignore ALL files in ANY directory named pycache
+__pycache__/
+
+# ignore ALL files in ANY directory named venv
+.venv/
+
+# ignore ALL JPG files in profile_images
+static/profile_images/*.jpg
+
+# ignore ALL PDF files in scorecards
+static/scorecards/*.pdf
